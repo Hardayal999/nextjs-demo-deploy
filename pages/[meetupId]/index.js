@@ -34,7 +34,7 @@ export async function getStaticPaths() {
   // the collection and second argument spevify which property I want to fetch like _id from the backend 1 represent only this _id:1
 
   return {
-    fallback: false,
+    fallback: "blocking",
     paths: meetups.map((meetup) => ({
       params: { meetupId: meetup._id.toString() },
     })),
