@@ -1,0 +1,14 @@
+.detail {
+  text-align: center;
+}
+
+.detail h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-variant: small-caps;
+  font-size: 3rem;
+  color: red;
+}
+
+.detail img {
+  width: 100%;
+}
